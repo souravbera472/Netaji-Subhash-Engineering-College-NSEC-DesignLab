@@ -4,8 +4,12 @@
 ```
 npm install
 ```
+### To start Server
+```
+json-server --watch db.json
+```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development open other terminal and type
 ```
 npm run serve
 ```
