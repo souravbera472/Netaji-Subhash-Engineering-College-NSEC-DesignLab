@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "user": [
+    {
+      "name": "Sourav Bera",
+      "email": "sb@gmail.com",
+      "id": 1,
+      "phone": "73667772673",
+      "password": "Sourav@123"
+    },
+    {
+      "name": "Sourav",
+      "email": "sb2@gmail.com",
+      "phone": "73667772673",
+      "password": "Sourav@123",
+      "id": 2
+    },
+    {
+      "name": "Sourav22",
+      "email": "sb2@gmail.com",
+      "phone": "73667772673",
+      "password": "Lol@123",
+      "id": 3
+    },
+    {
+      "name": "sourav bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "Amisourav@123",
+      "id": 4
+    },
+    {
+      "name": "sourav bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "sourav bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "1233",
+      "id": 6
+    },
+    {
+      "name": "sourav bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "23455",
+      "id": 7
+    },
+    {
+      "name": "sourav bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "534322",
+      "id": 8
+    },
+    {
+      "name": "Arpita Jana",
+      "phone": "7908571039",
+      "email": "janaarpita98@gmail.com",
+      "password": "123456",
+      "id": 9
+    }
+  ],
+  "blogs": [
+    {
+      "title": "New Blog",
+      "des": "This is description",
+      "name": "Sourav Bera",
+      "content": "<pre class=\"ql-syntax\" spellcheck=\"false\">#include&lt;stdio.h&gt;\n</pre>",
+      "id": "N1NApQS"
+    },
+    {
+      "title": "First Blog",
+      "des": "This is blog description",
+      "name": "Sourav Bera",
+      "content": "<p><span style=\"color: rgb(102, 185, 102);\">Hi This blog content</span></p>",
+      "id": "8MQkAr2"
+    },
+    {
+      "title": "Tcs digital interview experience",
+      "des": "This is blog description",
+      "name": "Arpita Jana",
+      "content": "<p><strong><em>This is my first blog.</em></strong></p><p><br></p><p><strong><em>                                                           </em></strong><strong style=\"color: rgb(255, 255, 0);\"><em> </em></strong><span style=\"color: rgb(230, 0, 0);\">Hi, This is Arpita.</span></p>",
+      "id": "7HivVNm"
+    },
+    {
+      "title": "New Blog",
+      "des": "This is blog description",
+      "name": "Sourav Bera",
+      "content": "<p>fsvvv bvdsgh ngbvxgtdh</p><p> </p><p><br></p><p><br></p><p>ggjk,n n</p><p><br></p><p><br></p><p>fhgvvvjityddc</p><p><br></p><p><br></p><p>dbbbhdd</p>",
+      "id": "AT-dYU4"
+    }
+  ]
+}
