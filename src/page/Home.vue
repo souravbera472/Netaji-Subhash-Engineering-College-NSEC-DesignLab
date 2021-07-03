@@ -1,6 +1,8 @@
 <template>
     <div>
      <img class="img" width="100%" :src="'image/blog.jpg'" alt />
+     
+     
      <img class="img2" width="49%" :src="'image/Blog2.jpg'" alt />
      <img class="img2" width="50%" :src="'image/blog3.jpg'" alt />
     </div>
@@ -32,7 +34,7 @@ export default {
 
 <style scoped>
 .img{
-    height: 700px !important;
+    height: 500px !important;
 }
 .img2{
     height: 350px;

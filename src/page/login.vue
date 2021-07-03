@@ -1,21 +1,31 @@
 <template>
 <div>
-  <v-row justify="center">
+
+  <img class="img2" width="50%" :src="'image/reg.png'" alt />
+  
     <v-dialog
       v-model="dialog"
       persistent
       max-width="400px"
     >
       <template v-slot:activator="{ on, attrs }">
+        <div class="span2">
+        <span >New User? Click on Registration</span>
+        </div>
         <v-btn
-          color="primary"
+          color="rgb(248, 240, 229)"
           dark
+          depressed
+          rounded
           v-bind="attrs"
           v-on="on"
           class="btns7"
         >
-         Registration
+        <span style="color: black; text-decoration: underline !important">Registration</span>
         </v-btn>
+        
+  
+  
       </template>
       <v-card>
         <v-card-title>
@@ -88,8 +98,8 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-  </v-row>
-  <v-row justify="center">
+  
+  
     <v-dialog
       v-model="dialog2"
       persistent
@@ -97,13 +107,14 @@
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
-          color="primary"
-          dark
+          color="rgb(248, 240, 229)"
+          depressed
+          rounded
           v-bind="attrs"
           v-on="on"
-          class="btns7"
+          class="btns8"
         >
-         Login
+         <span style="color: black; text-decoration: underline !important">Login</span>
         </v-btn>
       </template>
       <v-card>
@@ -149,13 +160,13 @@
             color="blue darken-1"
             text
            @click="checkData"
+           
           >
             Login
           </v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
-  </v-row>
   </div>
 </template>
 
@@ -191,7 +202,8 @@ export default {
         postUser(this.posts)
           .then(() => {
             alert("Data added successfully");
-            this.flag = 1;
+            this.$store.commit("setFlagvalue", 1);
+            this.dialog = false;
           })
           .catch(function (error) {
             alert(error);
@@ -210,8 +222,25 @@ export let somevalue={
 
 <style scoped>
 .btns7{
-  margin-top: 10%;
+  margin-top: -2%;
+  margin-left: -35%;
 }
-
+.btns8{
+  margin-top: .1%;
+  margin-left: 51.5%;
+  color: rgb(248, 240, 229);
+}
+.img2{
+  margin-left: 25%;
+  height: 350px;
+}
+.span2{
+  margin-top: -6% !important;
+  margin-left: 32%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(228, 67, 67);
+}
   
 </style>
