@@ -100,7 +100,7 @@
     </v-dialog>
   
   
-    <v-dialog
+    <!-- <v-dialog
       v-model="dialog2"
       persistent
       max-width="400px"
@@ -166,7 +166,7 @@
           </v-btn>
         </v-card-actions>
       </v-card>
-    </v-dialog>
+    </v-dialog> -->
   </div>
 </template>
 
@@ -223,7 +223,7 @@ export let somevalue={
 <style scoped>
 .btns7{
   margin-top: -2%;
-  margin-left: -35%;
+  margin-left: -31%;
 }
 .btns8{
   margin-top: .1%;

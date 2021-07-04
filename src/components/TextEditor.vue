@@ -111,6 +111,8 @@
       <h1>
           Thank You
       </h1>
+      <br>
+      <br>
   </div>
 </template>
 
@@ -195,7 +197,7 @@ export default {
   color: rgb(243, 203, 117);
 }
 .dialog2 {
-  background-color: cadetblue !important;
+  background-color: rgb(82, 193, 197) !important;
 }
 .AA {
   font: small;

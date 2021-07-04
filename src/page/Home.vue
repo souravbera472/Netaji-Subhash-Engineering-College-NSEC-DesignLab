@@ -2,9 +2,14 @@
     <div>
      <img class="img" width="100%" :src="'image/blog.jpg'" alt />
      
-     
+     <marquee behavior="scroll" direction="right" style="color:#df74ff"
+      >🤩 Developed By Sourav 🤩</marquee
+    >
      <img class="img2" width="49%" :src="'image/Blog2.jpg'" alt />
      <img class="img2" width="50%" :src="'image/blog3.jpg'" alt />
+     <br>
+     <br>
+     <br>
     </div>
 
 </template>

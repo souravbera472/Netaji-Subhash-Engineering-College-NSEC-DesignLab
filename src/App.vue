@@ -89,9 +89,26 @@
             </v-btn>
           </template>
           <v-list>
-            <v-list-item v-for="(item, index) in items" :key="index">
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item >
+              <v-list-item-title>
+                <v-icon class="mr-2">mdi-account</v-icon>   {{ jsonarr[flag-1].name }}</v-list-item-title>
             </v-list-item>
+            <v-list-item>
+              <v-list-item-title>
+                <v-icon class="mr-2">mdi-email</v-icon> {{ jsonarr[flag-1].email }}</v-list-item-title>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-title>
+                <v-icon class="mr-2">mdi-phone</v-icon> {{ jsonarr[flag-1].phone }}</v-list-item-title>
+            </v-list-item>
+          <v-list-item>
+            <v-btn depressed @click="myclick">
+              <v-icon class="mr-3">
+                mdi-logout
+              </v-icon>
+              <span>Logout</span>
+            </v-btn>
+          </v-list-item>
           </v-list>
         </v-menu>
       </div>
@@ -106,7 +123,12 @@
     <!-- <v-main>
       <TextEditor />
     </v-main> -->
+    <v-footer fixed height="45px" style="background:rgb(155, 243, 209)">
+      <marquee behavior="scroll" direction="right" style="color:#e3891c; font-size:16px"
+      >Developed By Sourav</marquee>  
+    </v-footer>
   </v-app>
+  
 </template>
 
 <script>
@@ -119,22 +141,25 @@ export default {
     return {
       flag: undefined,
       jsonarr: [],
-      items: [
-        { title: "Click Me hhhhjkgj" },
-        { title: "Click Me" },
-        { title: "Click Me" },
-        { title: "Click Me 2" },
-      ],
+      flag1: this.$store.currentFlag,
     };
   },
-  created() {
-    console.log("Hori om");
+  methods:{
+    myclick(){
+      window.location.reload();
+    }
+
+  },
+  updated() {
     getUser().then((res) => {
       console.log("api data");
       console.log(res.data);
       this.jsonarr = res.data;
       console.log("length22");
+      this.flag = this.jsonarr.length;
+      console.log(this.flag);
     });
+    
   },
 };
 </script>

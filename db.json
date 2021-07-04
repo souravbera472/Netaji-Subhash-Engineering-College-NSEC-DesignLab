@@ -15,144 +15,18 @@
       "password": "Sourav@123"
     },
     {
-      "name": "Sourav",
-      "email": "sb2@gmail.com",
-      "phone": "73667772673",
-      "password": "Sourav@123",
+      "name": "Sourav Bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "1234567",
       "id": 2
     },
     {
-      "name": "Sourav22",
-      "email": "sb2@gmail.com",
-      "phone": "73667772673",
-      "password": "Lol@123",
+      "name": "Sourav Bera",
+      "phone": "07548036747",
+      "email": "souravbera472@gmail.com",
+      "password": "98776",
       "id": 3
-    },
-    {
-      "name": "sourav bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "Amisourav@123",
-      "id": 4
-    },
-    {
-      "name": "sourav bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 5
-    },
-    {
-      "name": "sourav bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1233",
-      "id": 6
-    },
-    {
-      "name": "sourav bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "23455",
-      "id": 7
-    },
-    {
-      "name": "sourav bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "534322",
-      "id": 8
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "12345",
-      "id": 9
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 10
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "12345",
-      "id": 11
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "123456",
-      "id": 12
-    },
-    {
-      "name": "SOURA BERA",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "123456",
-      "id": 13
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "12345",
-      "id": 14
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "12345",
-      "id": 15
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 16
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 17
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 18
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "1234",
-      "id": 19
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravbera472@gmail.com",
-      "password": "12345",
-      "id": 20
-    },
-    {
-      "name": "Sourav Bera",
-      "phone": "07548036747",
-      "email": "souravb.cse2017@nsec.ac.in",
-      "password": "23445",
-      "id": 21
     }
   ],
   "blogs": [
@@ -169,6 +43,13 @@
       "name": "Sourav Bera",
       "content": "<p><span style=\"color: rgb(102, 185, 102);\">Hi This blog content</span></p>",
       "id": "8MQkAr2"
+    },
+    {
+      "title": "Tcs digital interview experience",
+      "des": "Interview Description",
+      "name": "sourav472",
+      "content": "<p>Hi this is 2nd content .</p><p><strong>Now this is bold</strong></p><p><u>This is underline.</u></p><p>.                                                                                                TCS interview Experience</p>",
+      "id": "k-RbiOT"
     }
   ]
 }
