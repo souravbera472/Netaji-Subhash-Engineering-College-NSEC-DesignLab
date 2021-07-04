@@ -1,4 +1,4 @@
-# ui
+# Blog
 
 ## Project setup
 ```
